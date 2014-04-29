@@ -1,6 +1,7 @@
 package org.acme.insurance.policyquote;
 
 rule "StartRuleflow" salience 100
+    ruleflow-group "total"
     when
     then 
         System.out.println("StartRuleflow - ON");
