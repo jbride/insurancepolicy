@@ -18,12 +18,12 @@
         </field-data>
         <field-data>
           <name>numberOfAccidents</name>
-          <value></value>
+          <value>1</value>
           <nature>1</nature>
         </field-data>
         <field-data>
           <name>numberOfTickets</name>
-          <value></value>
+          <value>1</value>
           <nature>1</nature>
         </field-data>
       </fieldData>
@@ -97,6 +97,18 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace/>
+    <expect-fact>
+      <fieldValues>
+        <expect-field>
+          <fieldName>price</fieldName>
+          <expected>240</expected>
+          <operator>==</operator>
+          <nature>1</nature>
+        </expect-field>
+      </fieldValues>
+      <name>pM</name>
+      <anonymous>false</anonymous>
+    </expect-fact>
   </fixtures>
   <rules/>
   <inclusive>true</inclusive>
