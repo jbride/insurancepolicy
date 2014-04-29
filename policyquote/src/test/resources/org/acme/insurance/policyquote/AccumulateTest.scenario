@@ -12,16 +12,6 @@
           <nature>1</nature>
         </field-data>
         <field-data>
-          <name>numberOfAccidents</name>
-          <value></value>
-          <nature>1</nature>
-        </field-data>
-        <field-data>
-          <name>numberOfTickets</name>
-          <value></value>
-          <nature>1</nature>
-        </field-data>
-        <field-data>
           <name>creditScore</name>
           <value>715</value>
           <nature>1</nature>
