@@ -2,7 +2,7 @@ package org.acme.insurance.policyquote;
 
 import java.lang.Number;
 
-rule "NoviceDriverSurchargge"
+rule "NoviceDriverSurcharge"
 	dialect "mvel"
 	when
 	then
