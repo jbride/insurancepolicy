@@ -57,6 +57,60 @@
       <name>p1</name>
       <isModify>false</isModify>
     </fact-data>
+    <fact-data>
+      <type>Policy</type>
+      <fieldData>
+        <field-data>
+          <name>vehicleYear</name>
+          <value>2003</value>
+          <nature>1</nature>
+        </field-data>
+        <field-data>
+          <name>policyType</name>
+          <value>AUTO</value>
+          <nature>1</nature>
+        </field-data>
+        <field-data>
+          <name>driver</name>
+          <value>=d</value>
+          <nature>2</nature>
+        </field-data>
+        <field-data>
+          <name>priceDiscount</name>
+          <value></value>
+          <nature>1</nature>
+        </field-data>
+      </fieldData>
+      <name>p2</name>
+      <isModify>false</isModify>
+    </fact-data>
+    <fact-data>
+      <type>Policy</type>
+      <fieldData>
+        <field-data>
+          <name>vehicleYear</name>
+          <value></value>
+          <nature>1</nature>
+        </field-data>
+        <field-data>
+          <name>policyType</name>
+          <value>MASTER</value>
+          <nature>1</nature>
+        </field-data>
+        <field-data>
+          <name>driver</name>
+          <value>=d</value>
+          <nature>2</nature>
+        </field-data>
+        <field-data>
+          <name>priceDiscount</name>
+          <value></value>
+          <nature>1</nature>
+        </field-data>
+      </fieldData>
+      <name>pM</name>
+      <isModify>false</isModify>
+    </fact-data>
     <execution-trace/>
     <expect-fact>
       <fieldValues>
