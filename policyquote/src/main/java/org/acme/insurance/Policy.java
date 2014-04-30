@@ -96,7 +96,7 @@ public class Policy  implements java.io.Serializable {
     }
 
     public String toString() {
-        StringBuilder sBuilder = new StringBuilder("Policy properties =");
+        StringBuilder sBuilder = new StringBuilder();
         sBuilder.append("\n\tpolicyType : " +policyType);
         sBuilder.append("\n\tprice : " +price);
         sBuilder.append("\n\tpriceDiscount : " +priceDiscount);
