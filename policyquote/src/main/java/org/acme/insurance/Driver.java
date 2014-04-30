@@ -107,4 +107,17 @@ public class Driver  implements java.io.Serializable {
     public void setSsn(java.lang.Integer ssn) {
         this.ssn = ssn;
     }
+
+    public String toString() {
+        StringBuilder sBuilder = new StringBuilder("Driver  properties =");
+        sBuilder.append("\n\tdriverName : "+driverName);
+        sBuilder.append("\n\tdlNumber : " +dlNumber);
+        sBuilder.append("\n\tage : "+age);
+        sBuilder.append("\n\t# accidents : " +numberOfAccidents);
+        sBuilder.append("\n\t# tickets : " +numberOfTickets);
+        sBuilder.append("\n\tSSN : " +ssn);
+        sBuilder.append("\n\t# creditScore : " +creditScore);
+        return sBuilder.toString();
+    }
+
 }

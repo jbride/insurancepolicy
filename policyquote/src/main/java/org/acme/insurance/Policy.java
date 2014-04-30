@@ -94,4 +94,16 @@ public class Policy  implements java.io.Serializable {
     public void setVehicleYear(java.lang.Integer vehicleYear) {
         this.vehicleYear = vehicleYear;
     }
+
+    public String toString() {
+        StringBuilder sBuilder = new StringBuilder("Policy properties =");
+        sBuilder.append("\n\tpolicyType : " +policyType);
+        sBuilder.append("\n\tprice : " +price);
+        sBuilder.append("\n\tpriceDiscount : " +priceDiscount);
+        sBuilder.append("\n\trequestDate : " +requestDate);
+        sBuilder.append("\n\tvehicle year : "+vehicleYear);
+        sBuilder.append("\n\tdriver : " +driver);
+        return sBuilder.toString();
+    }
+
 }
