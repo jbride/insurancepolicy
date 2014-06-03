@@ -188,7 +188,7 @@ kcontext.setVariable("policyService", policyService);]]></bpmn2:script>
         </bpmn2:outputSet>
       </bpmn2:ioSpecification>
       <bpmn2:dataInputAssociation id="_tQt5xOrCEeO3xuYA-xsFqA">
-        <bpmn2:sourceRef>policySerivce</bpmn2:sourceRef>
+        <bpmn2:sourceRef>policyService</bpmn2:sourceRef>
         <bpmn2:targetRef>_657648AF-E4A4-4227-8C72-1671359D75E9_ParameterInputX</bpmn2:targetRef>
       </bpmn2:dataInputAssociation>
     </bpmn2:serviceTask>
