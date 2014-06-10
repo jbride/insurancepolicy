@@ -41,6 +41,8 @@ import javax.xml.bind.annotation.XmlType;
 @XmlRootElement(name="Policy")
 public class PolicyService implements java.io.Serializable {
 
+    public static final long serialVersionUID = 43L;
+
     @javax.xml.bind.annotation.XmlElement
     protected DriverService driver;
 

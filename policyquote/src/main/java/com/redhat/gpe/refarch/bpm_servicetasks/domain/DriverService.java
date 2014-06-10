@@ -44,6 +44,8 @@ import javax.xml.bind.annotation.XmlType;
 @javax.xml.bind.annotation.XmlRootElement(name = "driverService")
 public class DriverService implements java.io.Serializable {
 
+    public static final long serialVersionUID = 42L;
+
     @javax.xml.bind.annotation.XmlElement
     protected Integer age;
 
