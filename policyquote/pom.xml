@@ -7,6 +7,8 @@
   <version>1.0</version>
   <packaging>kjar</packaging>
   <name>policyquote</name>
+  <dependencies>
+  </dependencies>
   <repositories>
     <repository>
       <id>guvnor-m2-repo</id>
