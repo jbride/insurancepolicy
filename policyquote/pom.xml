@@ -7,23 +7,4 @@
   <version>1.0</version>
   <packaging>kjar</packaging>
   <name>policyquote</name>
-  <dependencies>
-  </dependencies>
-  <repositories>
-    <repository>
-      <id>guvnor-m2-repo</id>
-      <name>Guvnor M2 Repo</name>
-      <url>http://bpmsjb-bpmstraining.apps.lab2.opentlc.com/business-central/maven2/</url>
-    </repository>
-  </repositories>
-  <build>
-    <plugins>
-      <plugin>
-        <groupId>org.kie</groupId>
-        <artifactId>kie-maven-plugin</artifactId>
-        <version>6.0.2-redhat-6</version>
-        <extensions>true</extensions>
-      </plugin>
-    </plugins>
-  </build>
 </project>
